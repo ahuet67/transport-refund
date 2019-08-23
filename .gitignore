@@ -1,0 +1,8 @@
+# google authentication
+.clasprc*
+
+# target the projectId
+.clasp*
+node_modules
+
+code/config.js

@@ -1,0 +1,25 @@
+{
+  "env": {
+    "browser": true,
+    "es6": true,
+    "node": true
+  },
+  "globals": {
+    "Atomics": "readonly",
+    "SharedArrayBuffer": "readonly"
+  },
+  "parserOptions": {
+    "ecmaVersion": 2015,
+    "sourceType": "module"
+  },
+  "extends": ["eslint-config-prettier"],
+  "plugins": ["prettier"],
+  "rules": {
+    "quotes": ["error", "double"],
+    "semi": ["error", "never"],
+    "no-extra-semi": "error",
+    "keyword-spacing": ["error", { "after": true }],
+    "space-before-function-paren": ["error", "never"],
+    "space-in-parens": ["error", "never"]
+  }
+}

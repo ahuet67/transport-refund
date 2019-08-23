@@ -1,0 +1,24 @@
+{
+  "name": "transport-refund",
+  "version": "1.0.0",
+  "description": "Transport refund",
+  "main": "index.js",
+  "scripts": {
+    "lint": "./node_modules/.bin/eslint code/**.js",
+    "lint-fix": "./node_modules/.bin/eslint --fix code",
+    "format": "./node_modules/.bin/prettier --write '**/*.{js,jsx}'"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^6.2.0",
+    "eslint-config-prettier": "^6.1.0",
+    "eslint-plugin-prettier": "^3.1.0",
+    "prettier": "1.18.2",
+    "prettier-eslint": "^9.0.0"
+  }
+}
